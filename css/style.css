@@ -1,0 +1,344 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+h1 {
+  color: #9db0d1;
+  font-size: 60px;
+  font-family: 'Arapey', serif;
+  width: 100%;
+  height: 66px;
+  text-align: center;
+  margin-top: 100px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+/* мої стилі */
+
+.section {
+  width:100%;
+  height: 470px;
+}
+
+.text {
+  width: 950px;
+  height: 48px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Verdana', serif;
+  font-size: 20px;
+  line-height: normal;
+}
+
+.button {
+  margin: 50px auto;
+  display: block;
+  width: 267px;
+  height: 80px;
+  font-family: 'Arapey', serif;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: #ebac87;
+  border:none;
+  color: white;
+  line-height: 32px;
+  font-weight: normal;
+  
+}
+
+nav {
+  display: flex;
+  
+}
+
+nav ul {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Verdana', serif;
+  font-size: 20px;
+  line-height: normal;
+  
+
+}
+nav li {
+  position: relative;
+  justify-content: center; 
+  margin-left: 50px;
+  white-space: nowrap;
+  padding-left: 80px;
+  
+}
+
+li:before {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  background: #9db0d1;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  content: url(/img/ul.svg);
+  padding: 17px 0 0 14px;
+
+}
+
+li:nth-child(1){
+  margin:0;
+}
+
+.section_2 {
+  /* background-color: #87c6eb; */
+
+}
+
+.gradient {
+  height: 350px;
+  width: 100%;
+  background: linear-gradient(#ffffff, #87c6eb);
+}
+
+.clouds_img {
+  justify-content: center; 
+  width: 100%;
+  height: 200px;
+  margin: 2px 10px;
+  
+}
+
+.title_black {
+  width: 1200px;
+  height: 44px;
+  margin: 50px auto;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Arapey', serif;
+  
+}
+
+
+.main {
+  background-color: #87c6eb;
+  width: 100%;
+  height: 560px;
+  
+}
+
+.cards {
+width: 1200px;
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+}
+
+.card {
+  width: 350px;
+  height: 560px;
+  background-color:white;
+  border-radius: 10px;
+  
+}
+
+.card:nth-child(1) .circle {
+  background-color: rgba(235, 172, 135, 0.4);
+}
+.card:nth-child(2) .circle {
+  background-color: rgba(235, 172, 135, 0.6);
+}
+
+.circle {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color:#ebac87;
+  margin: 20px 0px 10px 20px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Verdana', serif;
+  color:white;
+}
+
+.img {
+  background-color: #ebac87;
+  width: 310px;
+  height: 310px;
+  margin: 0 auto;
+}
+
+.mountain {
+  width: 310px;
+  height: 310px;
+}
+
+.description {
+  width: 260px;
+  font-size: 20px;
+  font-family: 'Verdana', serif;
+  margin: 20px 20px;
+  line-height: 24px;
+}
+
+.bold {
+  font-weight:700;
+}
+
+.check {
+  background-color: #87c6eb;
+  width: 100%;
+  height: 510px;
+}
+
+.right_area {
+  width: 600px;
+  height: 475px;
+  margin-top: 35px;
+  background-image: url(/img/mountain4.png);
+  background-size: cover;
+  position: relative;
+}
+
+.circle_question {
+  width: 80px;
+  height: 80px;
+  background-color:#ebac87;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Verdana', serif;
+  color:white;
+  padding-top: 8px;
+  position: absolute;
+  bottom: 54px;
+  right: 0;
+}
+
+.lower_section {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.title_white {
+  width: 600px;
+  height: 132px;
+  margin: 75px 0 50px 0;
+  font-size: 40px;
+  text-align: left;
+  color:white;
+  font-family: 'Arapey', serif;
+}
+
+.description_2 {
+  width: 600px;
+  font-size: 20px;
+  font-family: 'Verdana', serif;
+  line-height: 24px;
+  font-weight: 400;
+
+}
+
+.check_button {
+  margin: 50px 0;
+  display: block;
+  width: 220px;
+  height: 80px;
+  font-family: 'Arapey', serif;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: white;
+  border:none;
+  color: #ebac87;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.last_section {
+  width: 100%;
+}
+.footer {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 180px;
+  background-color:white;
+}
+
+.button_footer {
+  margin: auto 0;
+  display: block;
+  width: 267px;
+  height: 80px;
+  font-family: 'Arapey', serif;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: #ebac87;
+  border:none;
+  color: white;
+  line-height: 32px;
+  font-weight: 400;
+  
+}
+
+.social_media {
+  margin: auto 0 auto auto;
+}
